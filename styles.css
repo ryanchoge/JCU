@@ -1,0 +1,170 @@
+body{
+   
+    margin: 0;
+    font-family: Georgia, serif;
+  
+}
+.info{
+    background-color:#dbf3e9 ;
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    
+    background-color: #f2f2f2; 
+    height: 60px; 
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  .navbar a:hover {
+    color: rgb(47, 170, 57);
+  }
+  
+section{
+    text-align: center;
+    margin-top: 50px;
+}
+.topNav{
+    background-color: #f3efef;
+    height: 80vh;
+}
+.navbar{
+    color: #000;
+    font-size: large;
+    background-color: #f3dbec;
+}
+.imageSection{
+    background-color: #fff;
+    display: flex;
+}
+
+.headerSection img{
+    max-width: 100%;
+    height: 80vh;
+}
+.headerSection2{
+    width: 30%;  
+    margin: 150px;
+}
+.headerSection2 p{
+    text-align: center;
+    
+}
+li{
+    padding: 10px
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#text-section{
+    background-color:  #dbf3e9;;
+}
+.image-container{
+    
+   width: 50%; height: 40%; 
+}
+.products-button {
+   
+   background-color: red;
+  
+   
+}
+.product-gallery{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 100px; */
+    background-color:  #dbf3e9;
+}
+.product{
+    
+    width: 33.3%;
+}
+.image-container img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 50%;
+    margin-left: 40px
+    /* margin: auto 30px; */
+  
+}
+hr{
+    margin: 50px auto;
+    
+    border: none;
+    border-top: 5px dotted #000;
+    height: 1px;
+    width: 20vw;
+}
+.about-us{
+    margin: auto 100px;
+    width: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    line-height: 30px;
+}
+.about-usContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+  }
+  .products{
+    text-align: center;
+   
+  }
+.products .pics{
+   display: flex;
+}
+.testimonials {
+    
+    margin-bottom: 30px;
+    
+}
+.testimonials-M{
+    width: 30%;
+
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 20px;
+    
+    
+}
+.announcements{
+    margin: auto;
+    text-align: justify;
+    
+}
+.announcements h3{
+    text-align: center;
+    padding-top: 10px;
+}
+.announcements li{
+    text-align: center;
+}
+.contact-us{
+   
+    background-color: #fcdddd;
+    color: #000;
+    
+    
+}
+.contact-us p{
+    padding-bottom: 10px;
+    
+}
